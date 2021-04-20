@@ -1,5 +1,5 @@
 {% set name = "pyflwdir" %}
-{% set version = "0.4.6" %}
+{% set version = "0.4.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyflwdir-{{ version }}.tar.gz
-  sha256: 2cb79c1ba837bb24b523e3fd1335fd62e7cb940c12a1d75236e76179672a6357
+  sha256: ea134caa2524cebe95481f0c90155b1843169a50f85b74338b342d5a2b010dce
 
 build:
   number: 0
@@ -19,7 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.6
-    - setuptools_scm
+    - setuptools-scm
   run:
     - affine
     - numba >=0.48
