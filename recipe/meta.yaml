@@ -18,13 +18,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
     - setuptools-scm
   run:
     - affine
-    - numba >=0.48
+    - numba >=0.54
     - numpy
-    - python >=3.6
+    - python >=3.7
     - scipy
 
 test:
