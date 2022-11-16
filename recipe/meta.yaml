@@ -18,13 +18,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
-    - setuptools-scm
+    - flit
+    - python >=3.8
   run:
     - affine
     - numba >=0.54
     - numpy
-    - python >=3.7
+    - python >=3.8
     - scipy
 
 test:
