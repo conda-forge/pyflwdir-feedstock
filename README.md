@@ -1,11 +1,11 @@
-About pyflwdir
-==============
+About pyflwdir-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyflwdir-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/deltares/pyflwdir/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyflwdir-feedstock/blob/main/LICENSE.txt)
 
 Summary: Fast methods to work with hydro- and topography data in pure Python.
 
