@@ -11,7 +11,7 @@ source:
   sha256: d1892d277e7a1666a2896188af4cb49773a6c006b0315da422c973fd29f2f633
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -19,12 +19,12 @@ requirements:
   host:
     - pip
     - flit
-    - python >=3.9
+    - python {{ python_min }}
   run:
     - affine
     - numba >=0.54
     - numpy
-    - python >=3.9
+    - python >={{ python_min }}
     - scipy
 
 test:
@@ -34,6 +34,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/deltares/pyflwdir/
