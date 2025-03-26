@@ -22,7 +22,7 @@ requirements:
     - python {{ python_min }}
   run:
     - affine
-    - numba >=0.54
+    - numba >=0.54, <1.0
     - numpy
     - python >={{ python_min }}
     - scipy
