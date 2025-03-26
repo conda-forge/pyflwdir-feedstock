@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@DirkEilander](https://github.com/DirkEilander/)
+* [@deltares-service-account](https://github.com/deltares-service-account/)
 
