@@ -1,5 +1,5 @@
 {% set name = "pyflwdir" %}
-{% set version = "0.5.10" %}
+{% set version = "0.5.11" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyflwdir-{{ version }}.tar.gz
-  sha256: 499499b36117e202ebac6388026cb7c972128a1bbc943ac84f73656524e567f0
+  sha256: 1631dc53556137cd20f2c4a278f9e899eadb18ac1ad3dd400b3f5cbcd0e20dc6
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
