@@ -1,5 +1,5 @@
 {% set name = "pyflwdir" %}
-{% set version = "0.5.12" %}
+{% set version = "0.6.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyflwdir-{{ version }}.tar.gz
-  sha256: b7ac69ee90f09626a827a3db3648bf28781400171ec8ed432c46020cf048c32a
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pyflwdir-{{ version }}.tar.gz
+  sha256: 8ccaca6cddda03d567efb253879babd6f2d604401c90a29efaae03e4a8fcf64a
 
 build:
   number: 0
